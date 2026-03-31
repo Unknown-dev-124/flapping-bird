@@ -1,0 +1,29 @@
+{
+    "name": "Flapping Bird",
+    "description": "It's a flapping bird. Idk what else to say about it. ",
+    "dependencies": {
+        "device": "*",
+        "ArcadeMIDI": "github:unsignedarduino/arcademidi#af121437d59fd6b2cec54501ac437db1eaa766f5"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.12",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
